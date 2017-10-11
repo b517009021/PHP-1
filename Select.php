@@ -8,6 +8,7 @@
 	$row = mysqli_fetch_array($result);
 	mysqli_close($conn);
 	echo $row['Username']," ",$row['Password'];
+	ehco Eric
  ?>
 
 
